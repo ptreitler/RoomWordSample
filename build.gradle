@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
@@ -19,7 +19,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
@@ -29,7 +29,7 @@ task clean(type: Delete) {
 
 ext {
     roomVersion = '2.1.0'
-    archLifecycleVersion = '2.0.0'
+    archLifecycleVersion = '2.2.0-alpha03'
     androidxArchVersion = '2.0.0'
     coroutinesVersion = '1.2.0'
 }
